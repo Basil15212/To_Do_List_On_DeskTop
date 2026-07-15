@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Data-Layer\obj\Debug\To_Do_List_Data-Layer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Data-Layer\obj\Debug\To_Do_List_Data-Layer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Data-Layer\bin\Debug\To_Do_List_Data-Layer.dll
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Data-Layer\bin\Debug\To_Do_List_Data-Layer.pdb
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Data-Layer\obj\Debug\To_Do_List_Data-Layer.dll
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Data-Layer\obj\Debug\To_Do_List_Data-Layer.pdb

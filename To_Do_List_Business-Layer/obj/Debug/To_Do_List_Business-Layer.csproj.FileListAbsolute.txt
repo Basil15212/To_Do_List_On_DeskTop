@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\obj\Debug\To_Do_List_Business-Layer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\obj\Debug\To_Do_List_Business-Layer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\bin\Debug\To_Do_List_Business-Layer.dll
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\bin\Debug\To_Do_List_Business-Layer.pdb
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\bin\Debug\To_Do_List_Data-Layer.dll
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\bin\Debug\To_Do_List_Data-Layer.pdb
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\obj\Debug\To_Do_Li.D6715C1F.Up2Date
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\obj\Debug\To_Do_List_Business-Layer.dll
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\To_Do_List_Business-Layer\obj\Debug\To_Do_List_Business-Layer.pdb
