@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE4631F9-A5C5-4D6E-B277-DD01CED86225}|..\\To_Do_List_Data-Layer\\To_Do_List_Data-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_data-layer\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EB59EF1-CD96-47CC-874E-D1F6CD0E5464}|..\\traingLogicConsoleApp\\traingLogicConsoleApp.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\trainglogicconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595F5D9D-3168-4DD7-8E18-FB9C9CE6F4E6}|..\\To_Do_List_Business-Layer\\To_Do_List_Business-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_business-layer\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\C#\\Projects\\ContactsProject\\ContactUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{595F5D9D-3168-4DD7-8E18-FB9C9CE6F4E6}|..\\To_Do_List_Business-Layer\\To_Do_List_Business-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_business-layer\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\C#\\Projects\\ContactsBuesnesLogic\\Contact\\ContactBusLayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4631F9-A5C5-4D6E-B277-DD01CED86225}|..\\To_Do_List_Data-Layer\\To_Do_List_Data-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_data-layer\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\C#\\Projects\\contactsDataLayer\\ContactDataLayer\\ContactDataLayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,26 +40,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ContactUI.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\ContactsProject\\ContactUI.cs",
               "RelativeDocumentMoniker": "..\\..\\ContactsProject\\ContactUI.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\ContactsProject\\ContactUI.cs",
               "RelativeToolTip": "..\\..\\ContactsProject\\ContactUI.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T01:38:12.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\traingLogicConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "..\\traingLogicConsoleApp\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\traingLogicConsoleApp\\Program.cs",
-              "RelativeToolTip": "..\\traingLogicConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\traingLogicConsoleApp\\Program.cs*",
+              "RelativeToolTip": "..\\traingLogicConsoleApp\\Program.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwFkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T01:30:50.552Z",
               "EditorCaption": ""
@@ -72,33 +72,33 @@
               "RelativeDocumentMoniker": "..\\..\\contactsDataLayer\\ContactDataLayer\\ContactDataLayer.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\contactsDataLayer\\ContactDataLayer\\ContactDataLayer.cs",
               "RelativeToolTip": "..\\..\\contactsDataLayer\\ContactDataLayer\\ContactDataLayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T00:53:18.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ContactBusLayer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\ContactsBuesnesLogic\\Contact\\ContactBusLayer.cs",
               "RelativeDocumentMoniker": "..\\..\\ContactsBuesnesLogic\\Contact\\ContactBusLayer.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\ContactsBuesnesLogic\\Contact\\ContactBusLayer.cs",
               "RelativeToolTip": "..\\..\\ContactsBuesnesLogic\\Contact\\ContactBusLayer.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T00:51:27.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PersonData.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Data-Layer\\PersonData.cs",
               "RelativeDocumentMoniker": "..\\To_Do_List_Data-Layer\\PersonData.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Data-Layer\\PersonData.cs*",
               "RelativeToolTip": "..\\To_Do_List_Data-Layer\\PersonData.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAYBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T00:56:04.759Z",
               "EditorCaption": ""
@@ -109,9 +109,9 @@
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\Person.cs",
               "RelativeDocumentMoniker": "..\\To_Do_List_Business-Layer\\Person.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\Person.cs",
-              "RelativeToolTip": "..\\To_Do_List_Business-Layer\\Person.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEkAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\Person.cs*",
+              "RelativeToolTip": "..\\To_Do_List_Business-Layer\\Person.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAA4wGgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T00:38:35.017Z",
               "EditorCaption": ""

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,11 +49,31 @@ namespace To_Do_List_Business_Layer
 
         }
 
+        public static clsPerson Find(int ID)
+        {
+            string FirstName = "", LastName = "", Email = "", Address = "", PhoneNumber = "";
+            DateTime DateOFBirth = DateTime.Now;
+
+            if(clsPersonData.GetPersonInfoByID(ID ,ref FirstName ,ref LastName , ref Email ,ref Address , ref PhoneNumber ,ref DateOFBirth))
+            {
+                return new clsPerson(ID ,FirstName ,LastName ,Address , PhoneNumber,Email ,DateOFBirth);
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         private  bool _AddNewUser()
         {
             this.PersonID = clsPersonData.AddNewPerson(this.FirstName, this.LastName, this.Email, this.Address, this.Phone, this.DateOfBirth);
             return (this.PersonID != -1);
 
+        }
+
+        private bool _UpdatePerson()
+        {
+            return clsPersonData.UpdatePerson(this.PersonID ,this.FirstName ,this.LastName ,this.Email ,this.Address ,this.Phone ,this.DateOfBirth);
         }
 
         public bool Save()
@@ -69,11 +90,24 @@ namespace To_Do_List_Business_Layer
                         return false;
 
                     case enMode.Update:
-                    return true;
+                    return _UpdatePerson();
             }
             return false;
         }
 
+        public static bool DeletePersonByID(int ID)
+        {
+            return clsPersonData.DeletePerson(ID);
+        }
 
+        public static DataTable GetAllPersons()
+        {
+            return clsPersonData.GetAllPersons();
+        }
+
+        public static bool IsExist(int ID)
+        {
+            return clsPersonData.IsExist(ID);
+        }
     }
 }
