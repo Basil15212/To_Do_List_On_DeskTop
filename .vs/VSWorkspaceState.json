@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\My3TireToDoList",
     "\\To_Do_List_Business-Layer",
     "\\To_Do_List_Data-Layer"
   ],
-  "SelectedNode": "\\To_Do_List_Data-Layer\\DataSittings.cs",
+  "SelectedNode": "\\To_Do_List_Business-Layer\\Person.cs",
   "PreviewInSolutionExplorer": false
 }

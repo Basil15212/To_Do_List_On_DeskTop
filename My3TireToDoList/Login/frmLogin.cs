@@ -1,4 +1,5 @@
-﻿using System;
+﻿using My3TireToDoList.Main_screen;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,17 @@ using System.Windows.Forms;
 
 namespace My3TireToDoList
 {
-    public partial class Form1 : Form
+    public partial class frmLogin : Form
     {
-        public Form1()
+        public frmLogin()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmMainScreen frmMain =new frmMainScreen();
+            frmMain.ShowDialog();
         }
     }
 }
