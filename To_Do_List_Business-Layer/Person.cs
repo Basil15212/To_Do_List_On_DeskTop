@@ -25,26 +25,26 @@ namespace To_Do_List_Business_Layer
 
         public clsPerson ()
         {
-            PersonID = -1;
-            FirstName = "";
-            LastName = "";
-            Address = "";
-            Phone = "";
-            Email = "";
-            DateOfBirth = DateTime.Now;
+            this.PersonID = -1;
+            this.FirstName = "";
+            this.LastName = "";
+            this.Address = "";
+            this.Phone = "";
+            this.Email = "";
+            this.DateOfBirth = DateTime.Now;
             Mode = enMode.AddNew;
 
         }
 
         private clsPerson (int ID ,string firstName ,string lastName ,string address ,string phone ,string email ,DateTime dateOfBirth )
         {
-            PersonID = ID;
-            FirstName = firstName;
-            LastName = lastName;
-            Address = address;
-            Phone = phone;
-            Email = email;
-            DateOfBirth = dateOfBirth;
+            this.PersonID = ID;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Address = address;
+            this.Phone = phone;
+            this.Email = email;
+            this.DateOfBirth = dateOfBirth;
             Mode = enMode.Update;
 
         }
