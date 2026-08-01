@@ -75,5 +75,88 @@ namespace My3TireToDoList.People
                 FillPersonInfo();
             }
         }
+
+        private bool _AddNew()
+        {
+            string FirstName ,LastName ,Email ,Phone ,Address; DateTime DateOfBirth;
+            FirstName = txtFName.Text; LastName = txtLName.Text; Email = txtEmail.Text; Phone = txtPhone.Text; Address = txtAddress.Text;
+            DateOfBirth = dtpDateOfBirth.Value;
+            clsPerson Person = new clsPerson();
+            Person.FirstName = FirstName; Person.LastName = LastName; Person.Email = Email; Person.Phone = Phone; Person.Address = Address;
+            Person.DateOfBirth = DateOfBirth;
+
+            try
+            {
+                if (Person.Save())
+                {
+                    int ID = Person.PersonID;
+                    MessageBox.Show("Added Successfully the new ID is " + ID);
+                    _Mode = enMode.UPdate;
+                    lblTitle.Text = "Update Person";
+                    lblID.Text =ID.ToString();
+                    return (_PersonID != -1);
+                }
+                else
+                {
+                    MessageBox.Show("Adding Faild");
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            return false;
+        }
+        private bool _Update()
+        {
+            string FirstName, LastName, Email, Phone, Address; DateTime DateOfBirth;
+            FirstName = txtFName.Text; LastName = txtLName.Text; Email = txtEmail.Text; Phone = txtPhone.Text; Address = txtAddress.Text;
+            DateOfBirth = dtpDateOfBirth.Value;
+            clsPerson Person = _Person;
+            Person.FirstName = FirstName; Person.LastName = LastName; Person.Email = Email; Person.Phone = Phone; Person.Address = Address;
+            Person.DateOfBirth = DateOfBirth;
+            try
+            {
+                if(Person.Save())
+                {
+                    MessageBox.Show("Updated Successfuly");
+                    return true;
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            return false;
+        }
+
+        public bool Save()
+        {
+            switch(_Mode)
+            {
+                case enMode.AddNew:
+                    if(_AddNew())
+                    {
+                        _Mode = enMode.UPdate;
+                    }
+                    return true;
+                    
+                    case enMode.UPdate: 
+                    
+                    return _Update();
+            }
+            return false;
+        }
+
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            Save();
+
+        }
+
+
     }
 }

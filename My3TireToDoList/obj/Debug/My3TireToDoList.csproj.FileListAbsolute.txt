@@ -17,3 +17,4 @@ C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.Main_screen.frmMainScreen.resources
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.People.frmPeopleScreen.resources
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.People.frmAddUpdatePerson.resources
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.People.frmShowInfo.resources

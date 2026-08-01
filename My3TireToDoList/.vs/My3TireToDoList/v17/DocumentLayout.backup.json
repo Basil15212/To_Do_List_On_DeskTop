@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\people\\frmpeoplescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:people\\frmpeoplescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +13,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595F5D9D-3168-4DD7-8E18-FB9C9CE6F4E6}|..\\To_Do_List_Business-Layer\\To_Do_List_Business-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_business-layer\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,52 +45,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmPeopleScreen.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs",
               "RelativeDocumentMoniker": "People\\frmPeopleScreen.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs",
-              "RelativeToolTip": "People\\frmPeopleScreen.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwEQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs*",
+              "RelativeToolTip": "People\\frmPeopleScreen.cs*",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwIIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T03:05:55.822Z",
+              "WhenOpened": "2026-08-01T23:23:47.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmPeopleScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs",
-              "RelativeDocumentMoniker": "People\\frmPeopleScreen.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs [Design]",
-              "RelativeToolTip": "People\\frmPeopleScreen.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\Person.cs",
+              "RelativeDocumentMoniker": "..\\To_Do_List_Business-Layer\\Person.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\Person.cs",
+              "RelativeToolTip": "..\\To_Do_List_Business-Layer\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T03:05:43.8Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmAddUpdatePerson.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
-              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs*",
-              "RelativeToolTip": "People\\frmAddUpdatePerson.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T02:55:16.288Z",
+              "WhenOpened": "2026-08-01T23:15:58.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "frmAddUpdatePerson.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
+              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
+              "RelativeToolTip": "People\\frmAddUpdatePerson.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwJ8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T23:12:21.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmAddUpdatePerson.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
               "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs [Design]*",
-              "RelativeToolTip": "People\\frmAddUpdatePerson.cs [Design]*",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs [Design]",
+              "RelativeToolTip": "People\\frmAddUpdatePerson.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T02:42:21.627Z",
+              "WhenOpened": "2026-08-01T23:12:18.46Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPeopleScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs",
+              "RelativeDocumentMoniker": "People\\frmPeopleScreen.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmPeopleScreen.cs [Design]*",
+              "RelativeToolTip": "People\\frmPeopleScreen.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T23:12:13.099Z",
               "EditorCaption": " [Design]"
             }
           ]

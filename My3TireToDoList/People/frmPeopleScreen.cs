@@ -80,5 +80,58 @@ namespace My3TireToDoList.People
                 MessageBox.Show("Cant Edit this person");
             }
         }
+
+        private void btnAddNew_Click(object sender, EventArgs e)
+        {
+            frmAddUpdatePerson frmAdd_Edit = new frmAddUpdatePerson();
+            frmAdd_Edit.ShowDialog();
+        }
+
+        private void addNewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnAddNew_Click(sender, e);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SetForm();
+        }
+
+        private void showInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(dgvListPeople.CurrentRow.Cells[0].Value?.ToString(), out int val))
+            {
+                frmShowInfo frmShowInfo = new frmShowInfo(val);
+                frmShowInfo.ShowDialog();
+            }
+                
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(dgvListPeople.CurrentRow.Cells[0].Value?.ToString(), out int val))
+            {
+                DialogResult result = MessageBox.Show(
+                "Are you sure you want to Delete Person [" + val + "] ?",
+                 "Confirm Delete",
+                MessageBoxButtons.OKCancel,
+                MessageBoxIcon.Warning
+                 );
+                
+                if(result == DialogResult.OK)
+                {
+                   
+                    clsPerson.DeletePersonByID(val);
+                    button1_Click(sender, e);
+                    MessageBox.Show("Person deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("This person cannot be deleted because they are linked to other data records in the system.",
+                                        "Delete Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+        }
     }
 }

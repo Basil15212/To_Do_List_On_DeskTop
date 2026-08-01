@@ -39,6 +39,8 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblPeopleCount = new System.Windows.Forms.Label();
+            this.btnAddNew = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListPeople)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -84,12 +86,14 @@
             this.showInfoToolStripMenuItem.Name = "showInfoToolStripMenuItem";
             this.showInfoToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
             this.showInfoToolStripMenuItem.Text = "Show Info";
+            this.showInfoToolStripMenuItem.Click += new System.EventHandler(this.showInfoToolStripMenuItem_Click);
             // 
             // addNewToolStripMenuItem
             // 
             this.addNewToolStripMenuItem.Name = "addNewToolStripMenuItem";
             this.addNewToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
             this.addNewToolStripMenuItem.Text = "Add New";
+            this.addNewToolStripMenuItem.Click += new System.EventHandler(this.addNewToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -103,6 +107,7 @@
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
             this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // lblTitle
             // 
@@ -135,12 +140,36 @@
             this.lblPeopleCount.TabIndex = 3;
             this.lblPeopleCount.Text = "0";
             // 
+            // btnAddNew
+            // 
+            this.btnAddNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddNew.Location = new System.Drawing.Point(1444, 125);
+            this.btnAddNew.Name = "btnAddNew";
+            this.btnAddNew.Size = new System.Drawing.Size(139, 59);
+            this.btnAddNew.TabIndex = 4;
+            this.btnAddNew.Text = "Add New +";
+            this.btnAddNew.UseVisualStyleBackColor = true;
+            this.btnAddNew.Click += new System.EventHandler(this.btnAddNew_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRefresh.Location = new System.Drawing.Point(23, 125);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(139, 59);
+            this.btnRefresh.TabIndex = 5;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmPeopleScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1634, 650);
+            this.Controls.Add(this.btnRefresh);
+            this.Controls.Add(this.btnAddNew);
             this.Controls.Add(this.lblPeopleCount);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTitle);
@@ -169,5 +198,7 @@
         private System.Windows.Forms.ToolStripMenuItem addNewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
+        private System.Windows.Forms.Button btnAddNew;
+        private System.Windows.Forms.Button btnRefresh;
     }
 }
