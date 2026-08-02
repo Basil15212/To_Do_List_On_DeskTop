@@ -1,7 +1,14 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{595F5D9D-3168-4DD7-8E18-FB9C9CE6F4E6}|..\\To_Do_List_Business-Layer\\To_Do_List_Business-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_business-layer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE4631F9-A5C5-4D6E-B277-DD01CED86225}|..\\To_Do_List_Data-Layer\\To_Do_List_Data-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_data-layer\\clsuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +29,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\clsUser.cs",
+              "RelativeDocumentMoniker": "..\\To_Do_List_Business-Layer\\clsUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\clsUser.cs",
+              "RelativeToolTip": "..\\To_Do_List_Business-Layer\\clsUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T04:14:48.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUserData.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Data-Layer\\clsUserData.cs",
+              "RelativeDocumentMoniker": "..\\To_Do_List_Data-Layer\\clsUserData.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Data-Layer\\clsUserData.cs",
+              "RelativeToolTip": "..\\To_Do_List_Data-Layer\\clsUserData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAALUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:30:45.663Z",
+              "EditorCaption": ""
             }
           ]
         }
