@@ -12,9 +12,12 @@ C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\bin\Debug\
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireT.897C997C.Up2Date
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.exe
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.pdb
-C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.exe.config
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.frmLogin.resources
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.Main_screen.frmMainScreen.resources
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.People.frmPeopleScreen.resources
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.People.frmAddUpdatePerson.resources
 C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.People.frmShowInfo.resources
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.Users.frmListUSers.resources
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.Users.frmShowUserDetails.resources
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.Users.frmAddEditUser.resources
+C:\Users\HP\Desktop\C#\Projects\To_Do_List_On_DeskTop\My3TireToDoList\obj\Debug\My3TireToDoList.exe.config

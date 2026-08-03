@@ -63,25 +63,26 @@
             // usersToolStripMenuItem
             // 
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(71, 32);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(71, 29);
             this.usersToolStripMenuItem.Text = "Users";
+            this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
             // 
             // employeesToolStripMenuItem
             // 
             this.employeesToolStripMenuItem.Name = "employeesToolStripMenuItem";
-            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(114, 32);
+            this.employeesToolStripMenuItem.Size = new System.Drawing.Size(114, 29);
             this.employeesToolStripMenuItem.Text = "Employees";
             // 
             // tasksToolStripMenuItem
             // 
             this.tasksToolStripMenuItem.Name = "tasksToolStripMenuItem";
-            this.tasksToolStripMenuItem.Size = new System.Drawing.Size(69, 32);
+            this.tasksToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
             this.tasksToolStripMenuItem.Text = "Tasks";
             // 
             // sittingsToolStripMenuItem
             // 
             this.sittingsToolStripMenuItem.Name = "sittingsToolStripMenuItem";
-            this.sittingsToolStripMenuItem.Size = new System.Drawing.Size(87, 32);
+            this.sittingsToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.sittingsToolStripMenuItem.Text = "Sittings";
             // 
             // frmMainScreen

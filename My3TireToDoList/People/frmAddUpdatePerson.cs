@@ -13,7 +13,7 @@ namespace My3TireToDoList.People
 {
     public partial class frmAddUpdatePerson : Form
     {
-
+        public event Action<int> OnPersonSaved;
         enum enMode { AddNew =0 , UPdate =1}
         enMode _Mode = enMode.AddNew;
 
@@ -94,6 +94,7 @@ namespace My3TireToDoList.People
                     _Mode = enMode.UPdate;
                     lblTitle.Text = "Update Person";
                     lblID.Text =ID.ToString();
+                    OnPersonSaved?.Invoke(_PersonID);
                     return (_PersonID != -1);
                 }
                 else

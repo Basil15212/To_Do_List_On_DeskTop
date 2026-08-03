@@ -1,4 +1,5 @@
 ﻿using My3TireToDoList.People;
+using My3TireToDoList.Users;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,12 @@ namespace My3TireToDoList.Main_screen
         {
             frmPeopleScreen frmPeople = new frmPeopleScreen();
             frmPeople.ShowDialog();
+        }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListUSers frmUser = new frmListUSers();
+            frmUser.ShowDialog();
         }
     }
 }

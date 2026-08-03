@@ -1,7 +1,35 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\users\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:users\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595F5D9D-3168-4DD7-8E18-FB9C9CE6F4E6}|..\\To_Do_List_Business-Layer\\To_Do_List_Business-Layer.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\to_do_list_business-layer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\users\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:users\\frmaddedituser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\users\\frmlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:users\\frmlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\users\\frmlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:users\\frmlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|c:\\users\\hp\\desktop\\c#\\projects\\to_do_list_on_desktop\\my3tiretodolist\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7C14CC4-39DF-45E7-91B7-A8B1AA8A7C8D}|My3TireToDoList.csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +50,94 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmAddUpdatePerson.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
+              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs [Design]",
+              "RelativeToolTip": "People\\frmAddUpdatePerson.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T00:04:58.094Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmListUSers.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmListUSers.cs",
+              "RelativeDocumentMoniker": "Users\\frmListUSers.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmListUSers.cs",
+              "RelativeToolTip": "Users\\frmListUSers.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwF8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T23:45:33.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmListUSers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmListUSers.cs",
+              "RelativeDocumentMoniker": "Users\\frmListUSers.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmListUSers.cs [Design]",
+              "RelativeToolTip": "Users\\frmListUSers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T23:45:31.538Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\clsUser.cs",
+              "RelativeDocumentMoniker": "..\\To_Do_List_Business-Layer\\clsUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\To_Do_List_Business-Layer\\clsUser.cs",
+              "RelativeToolTip": "..\\To_Do_List_Business-Layer\\clsUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T22:23:32.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddEditUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmAddEditUser.cs",
+              "RelativeDocumentMoniker": "Users\\frmAddEditUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmAddEditUser.cs",
+              "RelativeToolTip": "Users\\frmAddEditUser.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAswPIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T15:20:21.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAddEditUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmAddEditUser.cs",
+              "RelativeDocumentMoniker": "Users\\frmAddEditUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\Users\\frmAddEditUser.cs [Design]",
+              "RelativeToolTip": "Users\\frmAddEditUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T15:13:54.797Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAddUpdatePerson.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
+              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Projects\\To_Do_List_On_DeskTop\\My3TireToDoList\\People\\frmAddUpdatePerson.cs",
+              "RelativeToolTip": "People\\frmAddUpdatePerson.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwGAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T00:05:00.527Z",
+              "EditorCaption": ""
             }
           ]
         }

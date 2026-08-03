@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Windows;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -38,6 +40,62 @@ namespace To_Do_List_Data_Layer
             return IsFound;
         }
 
+        public static bool GetUserInfoByUSerName(string Username ,ref int UserID ,ref int PersonID ,ref string PassWord ,ref bool IsActive)
+        {
+            bool IsFound = false;
+            SqlConnection conn = new SqlConnection(DataSittings.Connection);
+            string Query = @"Select * from Users where AccUSerName =@USerName";
+            SqlCommand cmd = new SqlCommand(Query, conn);
+            cmd.Parameters.AddWithValue("@USerName", Username);
+            try
+            {
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    IsFound = true;
+                    PersonID = (int)reader["PersonID"];
+                    UserID = (int)reader["USerID"];
+                    PassWord = (string)reader["PasswordHash"];
+                    IsActive = (bool)reader["IsActive"];
+                }
+                reader.Close();
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message); IsFound = false; }
+            finally { conn.Close(); }
+            return IsFound;
+        
+        }
+
+        public static bool GetUserinfoByIDAndUserName(int UserID ,string UserName ,ref int PersonID,ref string UserPassword ,ref bool IsActive)
+        {
+            bool IsFound = false;
+            SqlConnection conn = new SqlConnection(DataSittings.Connection);
+            string Query = @"Select * from Users where UserID =@UserID and AccUserName = @AccUserName";
+            SqlCommand cmd = new SqlCommand(Query, conn);
+            cmd.Parameters.AddWithValue("@UserID", UserID);
+            cmd.Parameters.AddWithValue("@AccUserName", UserName);
+
+            try
+            {
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    IsFound = true;
+                    PersonID = (int)reader["PersonID"];
+                    UserName = (string)reader["AccUserName"];
+                    UserPassword = (string)reader["PasswordHash"];
+                    IsActive = (bool)reader["IsActive"];
+                }
+                reader.Close();
+            }
+            catch (System.Exception ex) { Console.WriteLine(ex.Message); IsFound = false; }
+            finally { conn.Close(); }
+            return IsFound;
+        }
+
+
         public static int AddNewUser(int personID, string UserName, string UserPassword ,bool isactive)
         {
             int UserID = -1;
@@ -49,7 +107,7 @@ namespace To_Do_List_Data_Layer
             cmd.Parameters.AddWithValue("@PersonID" , personID);
             cmd.Parameters.AddWithValue("@UserName", UserName);
             cmd.Parameters.AddWithValue("@Password", UserPassword);
-            cmd.Parameters.AddWithValue("@IsActive", isactive);
+            cmd.Parameters.AddWithValue("@IsActive", isactive ? 1:0);
 
             try
             {
@@ -60,7 +118,7 @@ namespace To_Do_List_Data_Layer
                     UserID = InsertedID;
                 }
             }
-            catch(Exception ex) { Console.WriteLine(ex.Message);} finally { con.Close(); }
+            catch(Exception ex) { Console.WriteLine(ex.Message);} finally { con.Close();}
             return UserID;
         }
 
@@ -179,6 +237,60 @@ namespace To_Do_List_Data_Layer
             return isfound;
         }
 
+        public static bool IsUserExistByUserName(string UserName)
+        {
+            bool isfound = false;
+            SqlConnection con = new SqlConnection(DataSittings.Connection);
+            string query = "select * from Users where AccUserName = @AccUserName";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AccUserName", UserName);
+            try
+            {
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    isfound = true;
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                isfound = false;
+                Console.WriteLine(ex.Message);
+            }
+            finally { con.Close(); }
+            return isfound;
+        }
+
+        public static bool IsPersonLinkedWithUser(int PersonID)
+        {
+            bool isLinked = false;
+            SqlConnection con =new SqlConnection(DataSittings.Connection);
+            string query = @"select 1 from Users where PersonID =@PersonID";
+            SqlCommand cmd = new SqlCommand(query,con);
+            cmd.Parameters.AddWithValue("@PersonID" , PersonID);
+
+            try
+            {
+                con.Open();
+                object result = cmd.ExecuteScalar();
+
+                // If a record comes back, the value will not be null
+                if (result != null)
+                {
+                    isLinked = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                // Optional: For debugging local pipeline failures
+                 Console.WriteLine(ex.Message);
+                isLinked = false;
+            }
+            finally{ con.Close(); }
+            return isLinked;
+        }
 
     }
 }
